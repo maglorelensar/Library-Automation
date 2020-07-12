@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="349.0" prefWidth="312.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.DijitalDuzenleController">
+   <children>
+      <Label layoutX="26.0" layoutY="199.0" text="Yayın Yılı:">
+         <font>
+            <Font name="Century Gothic" size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="36.0" layoutY="29.0" prefHeight="16.0" prefWidth="48.0" text="Barkod:">
+         <font>
+            <Font name="Century Gothic" size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="34.0" layoutY="63.0" text="Ad:">
+         <font>
+            <Font name="Century Gothic" size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="34.0" layoutY="99.0" text="Dili:">
+         <font>
+            <Font name="Century Gothic" size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="36.0" layoutY="135.0" text="Boyutu:">
+         <font>
+            <Font name="Century Gothic" size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="36.0" layoutY="166.0" text="Süresi:">
+         <font>
+            <Font name="Century Gothic" size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="40.0" layoutY="232.0" text="Türü:">
+         <font>
+            <Font name="Century Gothic" size="13.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtBoyut" layoutX="89.0" layoutY="130.0" prefHeight="26.0" prefWidth="118.0" />
+      <TextField fx:id="txtAd" layoutX="89.0" layoutY="58.0" prefHeight="26.0" prefWidth="118.0" />
+      <TextField fx:id="txtDil" layoutX="89.0" layoutY="94.0" prefHeight="26.0" prefWidth="118.0" />
+      <TextField fx:id="txtBarkod" layoutX="89.0" layoutY="24.0" prefHeight="26.0" prefWidth="118.0" />
+      <TextField fx:id="txtSuresi" layoutX="89.0" layoutY="161.0" prefHeight="26.0" prefWidth="118.0" />
+      <TextField fx:id="txtYayinYili" layoutX="89.0" layoutY="194.0" prefHeight="26.0" prefWidth="118.0" />
+      <ComboBox fx:id="cmbTur" layoutX="89.0" layoutY="227.0" prefHeight="26.0" prefWidth="118.0" />
+      <Button layoutX="89.0" layoutY="281.0" mnemonicParsing="false" onAction="#btnDuzenleKaydet" text="Kaydet">
+         <font>
+            <Font name="Century Gothic" size="13.0" />
+         </font>
+      </Button>
+      <Button layoutX="175.0" layoutY="281.0" mnemonicParsing="false" onAction="#btnDuzenleIptal" prefHeight="26.0" prefWidth="64.0" text="İptal">
+         <font>
+            <Font name="Century Gothic" size="13.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="395.0" prefWidth="474.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.EmanetDuzenleController">
+   <children>
+      <Button layoutX="249.0" layoutY="349.0" mnemonicParsing="false" onAction="#btnDuzenleIptal" prefHeight="26.0" prefWidth="94.0" text="İptal">
+         <font>
+            <Font name="Century Gothic" size="12.0" />
+         </font>
+      </Button>
+      <Button layoutX="148.0" layoutY="349.0" mnemonicParsing="false" onAction="#btnDuzenleKaydet" prefHeight="26.0" prefWidth="94.0" text="Kaydet">
+         <font>
+            <Font name="Century Gothic" size="12.0" />
+         </font>
+      </Button>
+      <TextField fx:id="txtEmanetNo" layoutX="170.0" layoutY="55.0" />
+      <TextField fx:id="txtEmanetVermeTarihi" layoutX="170.0" layoutY="183.0" />
+      <TextField fx:id="txtEmanetAlmaTarihi" layoutX="170.0" layoutY="221.0" />
+      <TextField fx:id="txtEmanetIslemTarihi" layoutX="170.0" layoutY="264.0" />
+      <Label layoutX="34.0" layoutY="59.0" text="Emanet No:">
+         <font>
+            <Font name="Century Gothic" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="44.0" layoutY="98.0" prefHeight="18.0" prefWidth="80.0" text="Üye Adı">
+         <font>
+            <Font name="Century Gothic" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="40.0" layoutY="142.0" prefHeight="18.0" prefWidth="80.0" text="Kitap Adı">
+         <font>
+            <Font name="Century Gothic" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="20.0" layoutY="187.0" prefHeight="18.0" prefWidth="125.0" text="Emanet V. Tarihi:">
+         <font>
+            <Font name="Century Gothic" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="22.0" layoutY="225.0" prefHeight="18.0" prefWidth="126.0" text="Emanet A. Tarihi:">
+         <font>
+            <Font name="Century Gothic" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="24.0" layoutY="272.0" prefHeight="18.0" prefWidth="116.0" text="Emanet İ. Tarihi:">
+         <font>
+            <Font name="Century Gothic" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="16.0" layoutY="314.0" text="Emanet Teslim Kutusu:">
+         <font>
+            <Font name="Century Gothic" size="13.0" />
+         </font>
+      </Label>
+      <RadioButton fx:id="rdTeslimEdildi" layoutX="170.0" layoutY="314.0" mnemonicParsing="false" text="Teslim Edildi">
+         <font>
+            <Font name="Century Gothic" size="13.0" />
+         </font>
+      </RadioButton>
+      <RadioButton fx:id="rdTeslimEdilmedi" layoutX="275.0" layoutY="314.0" mnemonicParsing="false" text="Teslim Edilmedi">
+         <font>
+            <Font name="Century Gothic" size="13.0" />
+         </font>
+      </RadioButton>
+      <ComboBox fx:id="cmbUyeAdi" layoutX="169.0" layoutY="95.0" prefWidth="150.0" />
+      <ComboBox fx:id="cmbKitapAdi" layoutX="169.0" layoutY="139.0" prefWidth="150.0" />
+   </children>
+</AnchorPane>

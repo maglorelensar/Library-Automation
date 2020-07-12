@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="panel" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="532.0" prefWidth="765.0" style="-fx-background-color: #60a3bc;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.KitapGoruntuleController">
+   <children>
+      <TableView fx:id="kitapListele" layoutX="-1.0" layoutY="189.0" prefHeight="344.0" prefWidth="765.0" style="-fx-background-color: #f7f1e3;">
+        <columns>
+          <TableColumn fx:id="tBarkod" prefWidth="64.00000154972076" text="Barkod" />
+          <TableColumn fx:id="tAd" prefWidth="91.99999237060547" text="Ad" />
+            <TableColumn fx:id="tSayfa" prefWidth="58.4000244140625" text="Sayfa" />
+            <TableColumn fx:id="tBasYil" prefWidth="64.79998779296875" text="B.Yılı" />
+            <TableColumn fx:id="tDil" prefWidth="64.79998779296875" text="Dil" />
+            <TableColumn fx:id="tYayinEvi" prefWidth="72.79998779296875" text="Yayınevi" />
+            <TableColumn fx:id="rYazar" prefWidth="94.40005493164062" text="Yazar" />
+            <TableColumn fx:id="tDetay" prefWidth="64.79998779296875" text="Detay" />
+            <TableColumn fx:id="tAciklama" minWidth="0.0" prefWidth="76.0" text="Açıklama" />
+            <TableColumn fx:id="tRafNo" maxWidth="158.4000244140625" minWidth="5.0" prefWidth="51.20001220703125" text="RafNo" />
+            <TableColumn fx:id="tBolum" maxWidth="158.4000244140625" minWidth="5.0" prefWidth="59.199951171875" text="Bölüm" />
+        </columns>
+      </TableView>
+      <TextField fx:id="txtAramaYap" layoutX="183.0" layoutY="106.0" prefHeight="26.0" prefWidth="393.0" promptText="Aranacak Kitap Giriniz." />
+      <Button fx:id="menuyedon" layoutX="240.0" layoutY="45.0" mnemonicParsing="false" onAction="#menuyeDon" prefHeight="25.0" prefWidth="81.0" text="     Menü">
+         <font>
+            <Font name="Century Gothic" size="12.0" />
+         </font></Button>
+      <ImageView fitHeight="25.0" fitWidth="25.0" layoutX="240.0" layoutY="45.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@icons8-return-64.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="kitapSil" layoutX="339.0" layoutY="45.0" mnemonicParsing="false" onAction="#kitapSil" prefHeight="26.0" prefWidth="82.0" text="Sil">
+         <font>
+            <Font name="Century Gothic" size="13.0" />
+         </font>
+      </Button>
+      <Button layoutX="437.0" layoutY="45.0" mnemonicParsing="false" onAction="#kitapDuzenle" prefHeight="26.0" prefWidth="82.0" text="Düzenle">
+         <font>
+            <Font name="Century Gothic" size="13.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" fx:id="panel" prefHeight="532.0" prefWidth="765.0" style="-fx-background-color: #6a89cc;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.KullaniciEkleController">
+   <children>
+      <Label layoutX="37.0" layoutY="44.0" text="Ad :">
+         <font>
+            <Font name="Century Gothic" size="13.0" />
+         </font></Label>
+      <TextField fx:id="txtAd" layoutX="109.0" layoutY="39.0" />
+      <Button fx:id="kullaniciEkle" layoutX="197.0" layoutY="306.0" mnemonicParsing="false" onAction="#kullaniciEkle" prefHeight="35.0" prefWidth="98.0" text="   Ekle">
+         <font>
+            <Font name="Century Gothic" size="12.0" />
+         </font></Button>
+      <TextField fx:id="txtSoyad" layoutX="109.0" layoutY="73.0" />
+      <TextField fx:id="txtTelefon" layoutX="109.0" layoutY="106.0" />
+      <TextField fx:id="txtEposta" layoutX="109.0" layoutY="140.0" />
+      <Label layoutX="38.0" layoutY="78.0" text="Soyad :">
+         <font>
+            <Font name="Century Gothic" size="13.0" />
+         </font></Label>
+      <Label layoutX="35.0" layoutY="111.0" text="Telefon :">
+         <font>
+            <Font name="Century Gothic" size="13.0" />
+         </font></Label>
+      <Label layoutX="37.0" layoutY="145.0" text="Eposta :">
+         <font>
+            <Font name="Century Gothic" size="13.0" />
+         </font></Label>
+      <TextField fx:id="txtAdres" layoutX="109.0" layoutY="174.0" />
+      <Label layoutX="37.0" layoutY="179.0" text="Adres :">
+         <font>
+            <Font name="Century Gothic" size="13.0" />
+         </font></Label>
+      <Button fx:id="menuyedon" layoutX="88.0" layoutY="306.0" mnemonicParsing="false" onAction="#menuyeDon" prefHeight="35.0" prefWidth="98.0" text="       Menü">
+         <font>
+            <Font name="Century Gothic" size="12.0" />
+         </font></Button>
+      <ImageView fitHeight="35.0" fitWidth="64.0" layoutX="88.0" layoutY="306.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@icons8-return-64.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="35.0" fitWidth="90.0" layoutX="197.0" layoutY="306.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@icons8-add-64.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="24.0" layoutY="214.0" text="Kullanıcı No:">
+         <font>
+            <Font name="Century Gothic" size="13.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtKullaniciNo" layoutX="109.0" layoutY="209.0" />
+   </children>
+</AnchorPane>

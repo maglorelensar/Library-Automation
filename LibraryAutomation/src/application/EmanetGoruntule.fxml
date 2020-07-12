@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="panel" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="532.0" prefWidth="765.0" style="-fx-background-color: #60a3bc;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.EmanetGoruntuleController">
+   <children>
+      <TextField fx:id="txtAramaYap" layoutX="137.0" layoutY="105.0" prefHeight="26.0" prefWidth="416.0" promptText="Aranacak Emanet Giriniz." />
+      <Button fx:id="menuyedon" layoutX="202.0" layoutY="48.0" mnemonicParsing="false" onAction="#menuyeDon" prefHeight="26.0" prefWidth="74.0" text="      Menü">
+         <font>
+            <Font name="Century Gothic" size="12.0" />
+         </font></Button>
+      <TableView fx:id="emanetListele" layoutX="-2.0" layoutY="176.0" prefHeight="355.0" prefWidth="766.0">
+        <columns>
+          <TableColumn fx:id="tblClEmanetno" prefWidth="87.20001220703125" text="Emanet No" />
+          <TableColumn fx:id="tblClKullaniciAdi" prefWidth="100.79998779296875" text="Kullanıcı Adı" />
+            <TableColumn fx:id="tblClKitapAdi" prefWidth="128.00001525878906" text="Kitap Adı" />
+            <TableColumn fx:id="tblClVermetarihi" prefWidth="151.199951171875" text=" Verme Tarihi" />
+            <TableColumn fx:id="tblClAlmatarihi" prefWidth="124.800048828125" text="Alma Tarihi" />
+            <TableColumn fx:id="tblClİslemtarihi" prefWidth="173.59991455078125" text="İşlem Tarihi" />
+        </columns>
+      </TableView>
+      <ImageView fitHeight="47.0" fitWidth="25.0" layoutX="202.0" layoutY="49.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@icons8-return-64.png" />
+         </image>
+      </ImageView>
+      <Button layoutX="294.0" layoutY="48.0" mnemonicParsing="false" onAction="#emanetSil" prefHeight="26.0" prefWidth="82.0" text="Sil">
+         <font>
+            <Font name="Century Gothic" size="13.0" />
+         </font>
+      </Button>
+      <Button layoutX="393.0" layoutY="48.0" mnemonicParsing="false" onAction="#emanetDuzenle" prefHeight="26.0" prefWidth="82.0" text="Düzenle">
+         <font>
+            <Font name="Century Gothic" size="13.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

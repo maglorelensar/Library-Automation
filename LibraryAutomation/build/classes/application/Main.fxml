@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="panel" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="532.0" prefWidth="765.0" style="-fx-background-color: #474787;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.MainController">
+   <children>
+      <Button fx:id="kullanicigoruntule" layoutX="261.0" layoutY="252.0" mnemonicParsing="false" onAction="#kullaniciGoruntule" prefHeight="51.0" prefWidth="162.0" text="           Kullanıcı Görüntüle">
+         <font>
+            <Font name="Century Gothic" size="12.0" />
+         </font></Button>
+      <Button fx:id="kullaniciekle" layoutX="261.0" layoutY="134.0" mnemonicParsing="false" onAction="#kullaniciEkle" prefHeight="51.0" prefWidth="162.0" text="           Kullanıcı Ekle">
+         <font>
+            <Font name="Century Gothic" size="12.0" />
+         </font></Button>
+      <Button fx:id="emanetekle" layoutX="468.0" layoutY="134.0" mnemonicParsing="false" onAction="#emanetEkle" prefHeight="51.0" prefWidth="162.0" text="       Emanet Ekle">
+         <font>
+            <Font name="Century Gothic" size="12.0" />
+         </font></Button>
+      <Button fx:id="kitapgoruntule" layoutX="62.0" layoutY="252.0" mnemonicParsing="false" onAction="#kitapGoruntule" prefHeight="51.0" prefWidth="162.0" text="           Kitap Görüntüle">
+         <font>
+            <Font name="Century Gothic" size="12.0" />
+         </font></Button>
+      <Button fx:id="kitapekle1" layoutX="62.0" layoutY="134.0" mnemonicParsing="false" onAction="#kitapEkle" prefHeight="51.0" prefWidth="162.0" text="          Kitap Ekle">
+         <font>
+            <Font name="Century Gothic" size="12.0" />
+         </font></Button>
+      <Button fx:id="emanetgoruntule" layoutX="468.0" layoutY="252.0" mnemonicParsing="false" onAction="#emanetGoruntule" prefHeight="51.0" prefWidth="162.0" text="          Emanet Görüntüle">
+         <font>
+            <Font name="Century Gothic" size="12.0" />
+         </font></Button>
+      <ImageView fitHeight="44.0" fitWidth="51.0" layoutX="70.0" layoutY="137.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@icons8-bookmark-64.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="51.0" fitWidth="51.0" layoutX="66.0" layoutY="252.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@icons8-info-64.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="44.0" fitWidth="57.0" layoutX="268.0" layoutY="137.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@icons8-administrator-male-64.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="44.0" fitWidth="44.0" layoutX="268.0" layoutY="256.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@icons8-admin-settings-male-64.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="44.0" fitWidth="51.0" layoutX="474.0" layoutY="137.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@icons8-toolbox-64.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="44.0" fitWidth="51.0" layoutX="468.0" layoutY="256.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@icons8-gradient-line-64.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="filmEkleGor" layoutX="62.0" layoutY="349.0" mnemonicParsing="false" onAction="#filmEkleGor" prefHeight="51.0" prefWidth="162.0" text="Film Ekle-Görüntüle">
+         <font>
+            <Font name="Century Gothic" size="12.0" />
+         </font>
+      </Button>
+      <Button layoutX="261.0" layoutY="349.0" mnemonicParsing="false" onAction="#DergiEkleGor" prefHeight="51.0" prefWidth="162.0" text="Dergi Ekle-Görüntüle">
+         <font>
+            <Font name="Century Gothic" size="12.0" />
+         </font>
+      </Button>
+      <Button layoutX="468.0" layoutY="349.0" mnemonicParsing="false" onAction="#dijitalEkleGor" prefHeight="51.0" prefWidth="162.0" text="Dijital Ekle-Görüntüle">
+         <font>
+            <Font name="Century Gothic" size="12.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

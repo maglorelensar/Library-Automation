@@ -1,0 +1,6 @@
+3	fgdg	hjj	dfgdfg	dfgdfg	dfgdfg	Teslim Edildi
+1	fgdg	hjj	dfgdfg	dfgdfg	dfgdfg	Teslim Edildi
+35	Hediye	hjj	5522	45242	245274	Teslim Edildi
+5	fgdg	hjj	dfgdfg	dfgdfg	dffdgdf	Teslim Edildi
+4	fgdg	hjj	dfg	dfgdfg	23	Teslim Edildi
+2	fgdg	dfgd	dfgdfg	dfgdfg	dfgdfg	Teslim Edilmedi
